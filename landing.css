@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+body{
+    background-image: url("https://image.shutterstock.com/image-photo/abstract-pink-color-gradient-studio-260nw-2148056625.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0px;
+    border-bottom: 0.5px  solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#head-name{
+    font-size:  30px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.comman-name{
+    text-decoration: none;
+}
+
+.comman-name:hover{
+    color: black;
+    text-decoration:underline black;
+}
+#active{
+    color: black;
+    
+}
+#active:hover{
+    color: white;
+    text-decoration: underline white;
+}
+#get-in-touch{
+    border: 2px solid black;
+    padding: 20px;
+    background-color: black;
+    border-radius: 20px;
+}
+#get-in-touch:hover{
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+}
+#Product{
+    position: absolute;
+    top: 250px;
+    font-size: 70px;
+    margin-left: 100px;
+}
+#Best-Place{
+    position: absolute;
+    top: 430px;
+    margin-left: 100px;
+    color:rgba(251, 249, 255, 0.896);    
+}
+#get-started{
+    background-color: black;
+    position: absolute;
+    margin-top:550px;
+    text-decoration: none;
+    margin-left:100px;
+    font-size: 30px;
+    font-weight:900;
+    border: 2px solid white;
+    border-radius: 20px;  
+    padding: 20px; 
+}
+#get-started:hover{
+    color: black;
+    background-color: white;
+    border:3px solid black;
+    border-radius: 20px;
+}
+#Learn-More{
+    background-color: transparent;
+    position: absolute;
+    margin-top: 550px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 300px;
+    border: 2px solid rgb(15, 14, 14);
+    border-radius: 20px;
+    padding: 20px;
+}
